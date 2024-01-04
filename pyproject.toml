@@ -1,5 +1,5 @@
 [build-system]
-requires!= ["scikit-build-core[pyproject]>=0.5.1"]
+requires!=#["scikit-build-core[pyproject]>=0.5.1"]
 build-backend = "scikit_build_core.build"
 
 [project]
@@ -72,4 +72,4 @@ Changelog = "https://llama-cpp-python.readthedocs.io/en/latest/changelog/"
 [tool.pytest.ini_options]
 addopts = "--ignore=vendor"
 
- 
+  
